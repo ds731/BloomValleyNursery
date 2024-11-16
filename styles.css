@@ -1,0 +1,59 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+header h1{
+  color: #e0d2bd;
+  font-weight: bold;
+  font-family: arial;
+}
+header p{
+  color: #e0d2bd;
+  font-style: italic;
+}
+
+nav ul{
+  list-style-type: none;
+  background-color: #4b4a1e;
+  padding-left: 0px;
+}
+nav ul li{
+  display: inline;
+}
+
+nav ul li a{
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: arial;
+  color: #e0d2bd
+}
+
+nav ul a:hover{
+  background-color: #e0d2bd;
+  color: #790d1d;
+}
+
+#hours{
+  width: 275px;
+  border: 1px solid black;
+}
+
+#hours th {
+  background-color: #79512e;
+  font-weight: bold;
+  font-family: arial;
+  color: #e0d2bd;
+}
+
+#hours td {
+  padding-left: 25%;
+  background-color: #e0d2bd;
+  font-weight: bold;
+  font-family: arial;
+  color: #00231c
+}
